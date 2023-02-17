@@ -1,2 +1,2 @@
---script that List all rows of table
+-- List all rows of table
 SELECT * FROM first_table;
