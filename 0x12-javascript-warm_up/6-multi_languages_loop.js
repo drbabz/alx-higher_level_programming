@@ -1,13 +1,13 @@
 #!/usr/bin/node
-// using the isNaN() function to check if the first argument (arg) can be converted to an integer.
+/*
+   A JS Script that prints the elements of an array in a single line.
 
-const arg = process.argv[2];
+   Author: davidagor
 
-// using the ! (logical NOT) operator to invert the boolean value returned by isNaN()
-// printing the result using template literals to interpolate the value into the output string in the specified format.
-if (!isNaN(parseInt(arg))) {
-  console.log(`My number: ${parseInt(arg)}`);
-// If it can't be converted to an integer, we print "Not a number" instead.
-} else {
-  console.log('Not a number');
+   Using for loop to get this done, however other loop can still work.
+
+*/
+const lang = ['c is fun', 'Python is cool', 'JavaSript is amazing'];
+for (const item of lang) {
+  console.log(item);
 }
