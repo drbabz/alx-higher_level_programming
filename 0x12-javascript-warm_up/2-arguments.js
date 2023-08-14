@@ -1,37 +1,17 @@
 #!/usr/bin/node
-/*
-   Commandline arguments in js is made possible using the process.argv
-   which is an array that contains all arguments of the CLI.
 
-   process.argv[0] contains the absolute path to the node binary file
+// calculate the number of arguments passed to the script using 'process.argv.length - 2'
+// sbtracting 2 to exclude the 'node' command and the name of the script itself
 
-   process.argv[1] contains the absolute file path to the .js file in
-   which the js engine runs.
+const argsCount = process.argv.length - 2;
 
-   so process.argv[2] ... contains users passed in arguments.
-*/
-if (process.argv.length < 3) {
+// using 'if...else' statement to check the value of 'argsCount'
+// using 'console.log' to print the appropriate message
+
+if (argsCount === 0) {
   console.log('No argument');
-} else if (process.argv.length > 3) {
-  console.log('Arguments found');
-} else {
+} else if (argsCount === 1) {
   console.log('Argument found');
-}#!/usr/bin/node
-/*
-   Commandline arguments in js is made possible using the process.argv
-   which is an array that contains all arguments of the CLI.
-
-   process.argv[0] contains the absolute path to the node binary file
-
-   process.argv[1] contains the absolute file path to the .js file in
-   which the js engine runs.
-
-   so process.argv[2] ... contains users passed in arguments.
-*/
-if (process.argv.length < 3) {
-  console.log('No argument');
-} else if (process.argv.length > 3) {
-  console.log('Arguments found');
 } else {
-  console.log('Argument found');
+  console.log('Arguments found');
 }
