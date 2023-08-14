@@ -1,13 +1,5 @@
 #!/usr/bin/node
-/*
-   A JS Script that prints the elements of an array in a single line.
-
-   Author: davidagor
-
-   Using for loop to get this done, however other loop can still work.
-
-*/
-const lang = ['c is fun', 'Python is cool', 'JavaSript is amazing'];
-for (const item of lang) {
-  console.log(item);
+// Basic print with Javascript
+for (const line of ['C is fun', 'Python is cool', 'JavaScript is amazing']) {
+  console.log(line);
 }
