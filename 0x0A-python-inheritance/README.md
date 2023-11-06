@@ -1,6 +1,6 @@
 # 
 #  Python - Inheritance
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmNSR7DAT1mRXYhMTsOAQShwv-GabwZv1ygA&usqp=CAU)
+
 # Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
